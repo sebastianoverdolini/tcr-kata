@@ -2,7 +2,8 @@
   "name": "tcr-kata",
   "scripts": {
     "start": "node index",
-    "test": "vitest run"
+    "test": "vitest run",
+    "tcr": "(npm test && git add --all && git commit -m WIP || git reset --hard)"
   },
   "private": true,
   "devDependencies": {
