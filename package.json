@@ -2,7 +2,10 @@
   "name": "tcr-kata",
   "scripts": {
     "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "vitest": "^1.4.0"
+  }
 }
