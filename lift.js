@@ -1,4 +1,6 @@
 export class Lift {
-  currentFloor = 5;
-  call = (floor) => {};
+  currentFloor;
+  call = (floor) => {
+    this.currentFloor = floor;
+  };
 }
