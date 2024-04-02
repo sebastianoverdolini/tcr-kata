@@ -4,6 +4,10 @@ export class Lift {
     this._currentFloor = floor;
   };
 
+  reach = (floor) => {
+    this._currentFloor = floor;
+  }
+
   currentFloor = () => {
     return this._currentFloor
   }
