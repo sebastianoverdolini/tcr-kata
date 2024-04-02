@@ -3,7 +3,7 @@ export class Lift {
   {
     this._currentFloor = _currentFloor
   }
-  
+
   call = (floor) => {
     this._currentFloor = floor;
   };
