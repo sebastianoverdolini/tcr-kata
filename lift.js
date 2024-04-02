@@ -1,4 +1,4 @@
-export const lift = {
-  currentFloor: 5,
-  call: (floor) => {},
-};
+export class Lift {
+  currentFloor = 5;
+  call = (floor) => {};
+}
