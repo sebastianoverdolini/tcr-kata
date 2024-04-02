@@ -1,5 +1,9 @@
 export class Lift {
-  _currentFloor;
+  constructor(_currentFloor)
+  {
+    this._currentFloor = _currentFloor
+  }
+  
   call = (floor) => {
     this._currentFloor = floor;
   };
