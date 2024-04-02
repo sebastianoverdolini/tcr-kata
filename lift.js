@@ -13,7 +13,7 @@ export class Lift {
   }
 
   run = () => {
-
+    this._currentFloor = this._currentFloor
   }
 
   currentFloor = () => {
