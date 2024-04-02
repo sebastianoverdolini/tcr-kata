@@ -9,7 +9,7 @@ export class Lift {
   }
 
   run = () => {
-    
+
   }
 
   currentFloor = () => {
