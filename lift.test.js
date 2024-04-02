@@ -8,6 +8,7 @@ test("lift goes to the given floor when called", () => {
 
   expect(lift.currentFloor()).toBe(5);
 
+  lift.reach(3)
   lift.reach(2)
 
   expect(lift.currentFloor()).toBe(2)
