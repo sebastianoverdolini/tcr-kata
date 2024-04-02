@@ -6,10 +6,13 @@ test("Hello, world!", () => {
   expect(hello()).toBe("Hello, world!");
 });
 
-class A {}
+class Lift {
+  currentFloor = 5;
+  call = (floor) => {};
+}
 
 test("lift goes to the given floor when called", () => {
-  new A();
+  const lift = new Lift();
   lift.call(5);
 
   expect(lift.currentFloor).toBe(5);
