@@ -1,6 +1,6 @@
 export class Lift {
-  currentFloor;
+  _currentFloor;
   call = (floor) => {
-    this.currentFloor = floor;
+    this._currentFloor = floor;
   };
 }
