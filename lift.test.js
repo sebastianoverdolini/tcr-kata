@@ -10,6 +10,7 @@ test("lift goes to the given floor when called", () => {
 
   lift.reach(3)
   lift.reach(2)
+  lift.run()
 
   expect(lift.currentFloor()).toBe(2)
 });

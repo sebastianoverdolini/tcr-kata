@@ -8,6 +8,10 @@ export class Lift {
     this._currentFloor = floor;
   }
 
+  run = () => {
+    
+  }
+
   currentFloor = () => {
     return this._currentFloor
   }
